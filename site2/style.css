@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-image: url("dc4.jpg");
+    background-size: 100% 750px;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    height: 40px;
+    width: 100%;
+    background-color: blue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    transition: 0.35s;
+    color: lightblue;
+}
+
+.donem1 h1{
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 80px;
+}
+
+.donem1 h2{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.donem1 h3{
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+.butonlar{
+    width: 50%;
+    margin: auto;
+    margin-top: 250px;
+    display: flex;
+    column-gap: 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.butonlar .buton1{
+    background-color: white;
+    border-radius: 30px;
+    padding: 3px 20px;
+    color: black;
+}
+
+.butonlar .buton1:hover{
+    transition: 0.28s;
+    color: blue;
+    text-shadow: 2px 2px 5px lightblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container2{
+    margin-top: 205px;
+    height: 405px;
+}
+
+.container2 .box2{
+    position: absolute;
+    right: 200px;
+    width: 500px;
+}
+
+.container2 .box2 h2{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.container3{
+    background-color: #dddddd;
+    width: 100%;
+    height: 500px;
+}
+
+.container3 .box3{
+    margin-top: 105px;
+    position: absolute;
+    left: 200px;
+    width: 500px;
+}
+
+.container3 .box3 h2{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.container4{
+    background-color: white;
+    width: 100%;
+    height: 700px;
+}
+
+.container4 .box4{
+    margin-top: 105px;
+    height: 10px;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+}
+
+.container4 .box4 img{
+    display: block;
+    margin: auto;
+    margin-top: 105px;
+}
+
+.container4 h1{
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+footer{
+    width: 100%;
+    background-color: #363636;
+    height: 500px;
+}
+
+footer h1{
+    position: absolute;
+    left: 70px;
+    margin-top: 70px;
+    color: lightskyblue;
+}
